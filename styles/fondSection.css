@@ -1,0 +1,83 @@
+.fond_img_iphone {
+    position: absolute;
+    left: -10px;
+    bottom: 0px;
+}
+
+
+.img_iphone {
+    width: 200px;
+    height: 340px;
+}
+
+.fond_video {
+    position: relative;
+    left: 80%;
+    top: 90%;
+}
+
+.fond_imac {
+    position: absolute;
+    bottom: 0px;
+    left: -400px;
+}
+
+.fond_in_imac {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 500px;
+}
+
+.fond_instagram {
+    position: relative;
+    width: 485px;
+    height: 280px;
+    right: 0px;
+    bottom: 140px;
+}
+
+.video_in_fond {
+    position: absolute;
+    width: 180px;
+    border-radius: 30px;
+    bottom: 10px;
+
+}
+
+.fond_img_border {
+    height: 20%;
+
+    margin: 0 auto;
+    box-sizing: border-box;
+
+
+}
+
+.heading_for_block {
+    width: 450px;
+    position: relative;
+    left: 70px;
+}
+
+.fond_img_block {
+
+    position: absolute;
+    left: 150px;
+    bottom: 300px;
+    padding-top: 15px;
+    border-radius: 50px;
+    border-left-style: groove;
+    border-bottom-style: groove;
+    border-color: rgb(47, 36, 36);
+
+}
+
+.heading_for_text {
+    margin-top: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    font-style: initial;
+    color: rgb(223, 223, 223);
+}

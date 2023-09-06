@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Oswald&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: 'Oswald';
+    height: 100vh;
+}
+
+header {
+    position: relative;
+    z-index: 1;
+
+}
+
+.wrapper {
+    min-height: 100%;
+}
+
+
+.main__header {
+    width: 300px;
+    position: absolute;
+    right: 80%;
+
+}
+
+.header_font {
+    font-size: 30px;
+    font-weight: 700;
+    color: rgb(244, 244, 244);
+    margin-right: 5rem;
+}
+
+.header_text {
+    position: absolute;
+    right: 30%;
+    line-height: 40px;
+}
+
+
+.fond_img {
+    height: 900px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/photo_2023-08-20_12-53-54.jpg);
+    color: fff;
+    background-position: center;
+    background-size: cover;
+    border-bottom-color: rgb(77, 214, 232);
+    border-bottom-style: groove;
+    margin-bottom: 8px;
+    position: relative;
+}
+
+
+
+.fond_img1 {
+    height: 1000px;
+    border-top-color: rgb(77, 214, 232);
+    border-top-style: groove;
+    border-bottom-color: rgb(77, 214, 232);
+    border-bottom-style: groove;
+    margin-bottom: 2px;
+
+}
+
+.fond_basic_img {
+    height: 1000px;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/IMG_9744.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2px;
+    display: flex;
+}
+
+
+
+
+.fond_basic_img1 {
+    height: 1000px;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/IMG_9725.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-top-color: rgb(77, 214, 232);
+    border-top-style: groove;
+    margin-top: 8px;
+    display: flex;
+}

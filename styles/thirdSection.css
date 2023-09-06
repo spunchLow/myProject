@@ -1,0 +1,25 @@
+.container_section_img2 {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+}
+
+.container_img2 {
+    position: relative;
+    top: 23%;
+    left: 25%;
+}
+
+#gallery_img {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.container_section_text2 {
+    width: 50%;
+}
+
+
+#second_section_text p {
+    font-size: 21px;
+}

@@ -1,0 +1,50 @@
+:root {
+    --index: calc(1vw + 1vh);
+    --color-header: rgb(76, 38, 172);
+
+
+}
+
+.content,
+.fond_img,
+.fond_video,
+.fond_img_block>* {
+    will-change: transform;
+}
+
+
+.container_section_img1 {
+    width: 50%;
+    height: 100%;
+    margin: 0;
+}
+
+.container_img1 {
+    position: relative;
+    top: 17%;
+    left: 25%;
+}
+
+.gallery_item {
+    width: 600px;
+    border-radius: 20px;
+}
+
+.container_section_text {
+    width: 50%;
+}
+
+.container_text {
+    position: relative;
+    top: 25%;
+
+}
+
+.container_text p {
+    font-size: 30px;
+    font-weight: 600;
+    text-align: justify;
+    width: 500px;
+    color: rgb(255, 255, 255);
+    font-family: 'Oswald';
+}

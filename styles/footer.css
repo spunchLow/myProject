@@ -1,0 +1,31 @@
+.footer_sections {
+    margin-top: 10px;
+    height: 200px;
+    background-color: rgba(123, 236, 236, 0.628);
+}
+
+
+
+footer p {
+    font-size: 40px;
+}
+
+footer {
+    background: linear-gradient(90deg, #4CB6CC 16%, #9484d5 100%);
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
+    height: 100%;
+}
+
+/* Footer links styles */
+footer a {
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+.footer_logo img {
+    width: 60px;
+}
